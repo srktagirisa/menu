@@ -1,0 +1,17 @@
+    
+    
+    <table style="display: table;">
+        <thead>
+           <b><td style="padding: 20px">Item</td>
+            <td style="padding: 20px">Category</td>
+            <td style="padding: 20px">Price</td> </b>
+        </thead>
+        <tr>
+            <div *ngFor="let item of menuItems">
+                <td style="padding: 10px 30px"> {{item.name}}</td> 
+                <td style="padding: 10px 30px"> {{item.category}}</td>
+                <td style="padding: 10px 30px">{{item.price}}</td> 
+                
+            </div>
+        </tr>
+    </table>
