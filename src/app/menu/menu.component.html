@@ -10,7 +10,7 @@
             <div *ngFor="let item of menuItems">
                 <td style="padding: 10px 30px"> {{item.name}}</td> 
                 <td style="padding: 10px 30px"> {{item.category}}</td>
-                <td style="padding: 10px 30px">{{item.price}}</td> 
+                <td style="padding: 10px 30px">{{item.price | currency}}</td> 
                 
             </div>
         </tr>
